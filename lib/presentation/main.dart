@@ -108,7 +108,7 @@ class _WeatherAppState extends State<WeatherApp> {
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
                                       Text(
-                                        myController.text,
+                                        myController.text.toUpperCase(),
                                         style: TextStyle(
                                           fontSize: 45,
                                           color: Colors.black,
@@ -133,6 +133,9 @@ class _WeatherAppState extends State<WeatherApp> {
                                 ),
                               ),
                             ],
+                          ),
+                          SizedBox(
+                            height: 20,
                           ),
                           Container(
                             height: 340,
@@ -233,6 +236,9 @@ class _WeatherAppState extends State<WeatherApp> {
                                         ))),
                               ],
                             ),
+                          ),
+                          SizedBox(
+                            height: 20,
                           ),
                           Container(
                             color: Colors.white,
