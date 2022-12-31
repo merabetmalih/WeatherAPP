@@ -110,6 +110,7 @@ class _WeatherAppState extends State<WeatherApp> {
                                       Text(
                                         myController.text.toUpperCase(),
                                         style: TextStyle(
+                                          fontWeight: FontWeight.bold,
                                           fontSize: 45,
                                           color: Colors.black,
                                         ),
